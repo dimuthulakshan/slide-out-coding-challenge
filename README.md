@@ -1,6 +1,7 @@
 # Instructions
 
-Inside the src directory, you will find the files of your project.
+Inside the src directory, you will find the files of the project.
+
 It's a simple HTML page, there is no need to run it with any web server, simply double click on the HTML page and open it with any web browser.
 
 ## Exercise 1
