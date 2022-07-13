@@ -18,5 +18,9 @@ Style the button with CSS so that it looks like below
 ## Exercise 3
 
 Modify the code so that when a user clicks on the button, it creates 10 clones of the button and appends them to the HTML page.
-Each clone must have its index displayed as the button text (see image below).
+Each clone must have its index displayed as the button text (see image below). 
+On second click, the opposite needs to happen. All buttons should be removed except for the first.
+
+If possible, use vanilla Javascript (no JQuery or other libraries).
+
 ![Step 2](/assets/step-3.png)
