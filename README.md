@@ -19,4 +19,9 @@ Style the "Style Me" button with CSS so that it looks like below
 
 Modify the code so that when a user clicks on the "Replicate Me" button, it creates 10 clones of the button and appends them to the HTML page.
 Each clone must have its index displayed as the button text (see image below).
+
 ![Step 2](/assets/step-3.png)
+
+When any of those buttons is clicked, they need to log their index in the console.
+
+Use only Javascript and not JQuery if you can.
