@@ -25,3 +25,7 @@ Each clone must have its index displayed as the button text (see image below).
 When any of those buttons is clicked, they need to log their index in the console.
 
 Use only Javascript and not JQuery if you can.
+
+## Exercise 4
+
+Modify the code so that when a user clicks on the "Load Todos" button, it loads the list of todo items from an API (https://jsonplaceholder.typicode.com/todos) and displays the first 10 of them in a HTML table. The columns in the table should show all 4 properties returned by the API.
