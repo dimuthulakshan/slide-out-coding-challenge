@@ -1,3 +1,70 @@
-body {
+/* body {
   background: orange;
+} */
+
+.sign-up-button {
+  background-image: linear-gradient(to right, #bd3281, #ff1d7d);
+  color: white;
+  padding: 10px 15px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+/* Change the background color on hover */
+.sign-up-button:hover {
+  background-image: linear-gradient(to right, #ff1d7d, #bd3281);
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Table header styles */
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Table cell styles */
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Alternating row background colors for better readability */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Center-align text in specific columns (e.g., ID, User ID) */
+td:nth-child(0),
+td:nth-child(1) {
+  text-align: center;
+}
+
+/* Responsive table styles for smaller screens */
+@media (max-width: 600px) {
+  th, td {
+    padding: 5px;
+  }
 }
